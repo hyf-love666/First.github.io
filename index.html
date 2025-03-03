@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        
+
+       }
+       body {
+ background: #aaaaaa
+}
+       .box {
+       width: 1200px;
+       height: 1000px;
+       position: relative;
+       margin: 0 auto;
+       background-color: #666;
+       color: #7c6946;
+       line-height: 21px
+}
+        .module1{
+            
+            height: 120px;
+            font-size: 70px;
+            font-family: '方正舒体';
+            color: rgb(249, 249, 249);
+            text-align: center;
+            line-height: 120px;
+            
+
+        }
+     .module2{
+        float: left;
+        height: 470px;
+        width: 250px;
+     }
+        .module2 a{
+            display: block;
+            height: 94px;
+            width: 250px;
+            color: #fff;
+            background-color: #50596b;
+          
+            text-decoration: none;
+            padding-left: 30px;
+            line-height: 94px;
+            
+        }
+        .module2 a:hover{
+            background-color: hsl(198, 16%, 71%);
+        }
+        .module2 .here3{
+            background-color: hsl(214, 25%, 32%);
+        }
+        /* 图片轮播 */
+        .swiper-container{
+        width: 950px;
+        height: 470px;
+        margin: 0 auto;
+        overflow: hidden;
+        float: left;
+    }
+    .swiper-container img{
+        width: 950px;
+        height: 600px;
+    }
+    .swiper-slide{
+        float: left;
+    }
+    .swiper-wrapper{
+        width: 9900px;
+        animation: swiperfun 15s infinite;
+    }
+    .swiper-wrapper:hover{
+        animation-play-state: paused;  
+    }
+    
+    @keyframes swiperfun{
+        0%{
+            transform: translate(0px);
+        }
+        12.5%{
+            transform: translate(-950px);
+        }
+        25%{
+            transform: translate(-1900px);
+        }
+        37.5%{
+            transform: translate(-2850px);
+        }
+        50%{
+            transform: translate(-3800px);
+        }
+        62.5%{
+            transform: translate(-4750px);
+        }
+        75%{
+            transform: translate(-5700px);
+        }
+        87.5%{
+            transform: translate(-6650px);
+        }
+        100%{
+            transform: translate(-7600px);
+        }
+    }
+    .text p{
+        padding: 20px;
+        color: #eee;
+   text-indent: 2rem;
+   float: left;
+}
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div class="module1">
+        <h4>东台</h4>
+    </div>
+    <!-- 导航 -->
+    <div class="module2">
+        <a href="position.html">地理位置</a>
+        <a href="food.html">特色美食</a>
+        <a href="scenery.html">名胜风景</a>
+        <a href="Intangible Cultural.html">非遗介绍</a>
+        <a href="index.html" class="here3">首页</a>
+
+    </div>
+   <!-- 要轮播的图片 -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/DongTai1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/DongTai2.jpg" alt="">
+            </div>
+            
+            <div class="swiper-slide">
+                <img src="./images/DongTai4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/DongTai5.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/DT1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/DT2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/DT3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/DT4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/DongTai1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+       
+    <div class="text">
+        <p>
+            东台市，江苏省辖县级市，由盐城市代管，东台市地处江苏省沿海中部，长江三角洲北翼，位于东经120°07′～120°53′，北纬32°33′～32°57′之间，
+            市域总面积3175.67平方公里 [52]  。东台市属亚热带季风海洋性气候。截至2019年，东台市辖14个镇，另辖6个乡级单位，市政府驻东台镇。
+        </p>
+        <p>
+            东台古称晏，又称西溪、东亭等，1987年国务院批准东台撤县建市（县级）。东台市内共有东台站（客货运）、富安站（货运）两个火车站，东台市自古以产盐出名。东台人多属江淮民系。东台市是国家园林城市和中国优秀旅游城市。
+            2019年以来，先后被评为2019年度全国综合实力百强县市 [2]  、2019年度全国绿色发展百强县市 [3]  等称号。东台市历史悠久，有护国禅寺，弥陀寺，黄海森林公园，董永七仙女文化园等风景名胜区。
+        </p>
+        <p>截至2019年，东台市辖14个镇： 溱东镇、时堰镇、五烈镇、梁垛镇、安丰镇、南沈灶镇、富安镇、唐洋镇、新街镇、许河镇、三仓镇、头灶镇、弶港镇、东台镇；363个村民委员会
+            （其中含75个农村居委会），42个居民委员会，3363个村民小组。境内驻有江苏省属弶港农场、新曹农场。 [8]  另辖乡级单位：开发区 、沿海经济区 、城东新区 、西溪景区。 [9]  市政府驻东台镇。 [10] 
+        </p>
+    </div>
+    <video width="100%"  controls>
+        <source src="./images/东台video.mp4" type="video/mp4">
+      </video>
+</div>
+</body>
+</html>
